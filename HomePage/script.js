@@ -15,12 +15,12 @@ onload = function(){
         if(userdatarecieved.checked){
             return console.log("We have recieved your login data already from before, Sir! " + userdatarecieved.username + " " + userdatarecieved.password), alert("Alert: Check console to see your data and you have logged already before.")
         }else if(!userdatarecieved.checked){
-            window.location.href = "../index.js";
+            window.location.href = "../index.html";
         }
     })
 
 
     Navbar.AboutusButton.addEventListener('click',() => {
-        location.href = "Aboutus/index.js";
+        location.href = "Aboutus/index.html";
     })
 }
