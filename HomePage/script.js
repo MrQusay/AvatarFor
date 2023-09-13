@@ -21,6 +21,6 @@ onload = function(){
 
 
     Navbar.AboutusButton.addEventListener('click',() => {
-        location.href = "Aboutus/index.html";
+        location.href = ".Aboutus/index.html";
     })
 }
