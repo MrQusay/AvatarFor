@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;1,8..144,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@100&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;1,8..144,100&display=swap');
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+
+body{
+    background-image: linear-gradient(to left,rgba(0, 0, 73, 0.747),rgba(0, 0, 0, 0.822)),url("../images/Background.jpg");
+    width: 100vh;
+    height: auto;
+    
+}
+
+.welcome{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 250px;
+}
+.welcome h1{
+    font-size: 70px;
+    top: -100px;
+    position: relative;
+    width: 1200px;
+    right: 250px;
+    transition: color 3.1s;
+    cursor: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.welcome h1:hover{
+    color: rgb(94, 255, 0);
+}
+
+.welcome p{
+    font-family: monospace;
+    top: -50px;
+    position: relative;
+}
+.logo{
+    margin: 0px;
+    right: 300px;
+    top: -215px;
+    color: white;
+    position: relative;
+    font-family: 'Roboto Serif', serif;
+    padding: 10px;
+    bottom: auto;   
+    overflow: hidden;
+    cursor: none;
+    transition: color 1.1s;
+}
+.logo:hover{
+    color: aquamarine;
+    margin: auto;
+   
+}
+
+.navbars input{
+    left: 750px;
+    background-image: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px;
+    overflow: hidden;
+    margin: 5px;
+    top: 15px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 1.1s;
+    width: 100px;
+    
+}
+
+.navbars input:hover{
+    background-color: whitesmoke;
+}
+
+
+.photos img{
+    width: 200px;
+    top: 160px;
+    left: 150px;
+    right: 130px;
+    position: relative;
+    transition: width .5s;
+    margin: 10px;
+    
+}
+.photos #secondpic{
+    height: auto;
+    width: 100px;
+    transition: width .5s;
+    position: relative;
+    left: 200px;
+}
+
+.photos #secondpic:hover{
+    width: 110px;
+    
+}
+
+.photos #firstpic{
+
+}
+.photos img:hover{
+    width: 210px;
+}
+
+
